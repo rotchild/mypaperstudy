@@ -20,6 +20,6 @@ for the first step, some crutial parameters should be mentioned,they are describ
 
 as the second part,update function is for every ant who are traveling the towns.The function decide which town to go next. And the main idea of it is choice probability relative to two parameters:**visibility** and **pheromone**,the formula is as follow:
 
-$prob_{i,j}=\frac{pheromone_{i,j}^\alpha*\eta^\beta_{i,j}}{\sum_{k\in S,k\neq p}pheromeno_{k,j}^{\alpha}*\eta^\beta_{k,j}}$
+$$prob_{i,j}=\frac{pheromone_{i,j}^\alpha*\eta^\beta_{i,j}}{\sum_{k\in S,k\neq p}pheromeno_{k,j}^{\alpha}*\eta^\beta_{k,j}}$$
 
 where S is the set of probably choice for the next town j for ant i
